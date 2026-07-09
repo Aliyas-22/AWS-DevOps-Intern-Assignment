@@ -30,8 +30,8 @@ Deploy a simple website on an AWS EC2 instance, document the process, and host i
 
 **Deliverables:**
 - EC2 Public IP: `[13.60.53.58]`
-- Screenshot: EC2 Dashboard showing running instance
-- Screenshot: Successful SSH login to the instance
+  ![EC2 Dashboard](Screenshots/ec2-dashboard.png)
+  ![SSH Login](Screenshots/ssh-login.png)
 
 ---
 
@@ -69,9 +69,9 @@ top
 ```
 
 **Deliverables:**
-- Screenshot: `sudo systemctl status nginx` showing Nginx active/running
-- Screenshot: Website accessible in browser via EC2 Public IP (default Nginx page, before replacement)
-- Screenshot: `df -h` and `free -h` output
+![Nginx Status](Screenshots/status-nginx.png)
+![Default Nginx Page](Screenshots/nginx-defualt-page.png)
+![Custom Website](Screenshots/serving-nginx-page.png)
 
 ---
 
@@ -104,7 +104,8 @@ Created a basic HTML page containing Name, College, Branch, Email, and Current D
 
 **Deliverables:**
 - Website accessible via EC2 Public IP: `http://[13.60.53.58]`
-- Screenshot: Browser showing the custom HTML page live
+  ![Custom Website](Screenshots/serving-nginx-page.png)
+
 
 ---
 
@@ -176,6 +177,7 @@ Made executable and run with:
 ```bash
 docker run hello-world 
 ```
+![Bonus-task](Screenshots/docker-bonus.png)
 
 ---
 
